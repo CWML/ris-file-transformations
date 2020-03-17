@@ -5,8 +5,6 @@ f = open(inputfile, "r").read()
 
 records = f.split("\n\n")
 
-#lines = [x if x != '' else "ER  -" for x in lines]
-
 with open(outputfile, 'w') as risfile:
     for record in records:
         record = record.replace("Title: ", "\nTI  - ")
