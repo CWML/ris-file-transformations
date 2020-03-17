@@ -9,8 +9,8 @@
 import csv
 from sys import argv
 
-inputfile = '2019-12-03_Nyhan.csv'
-outputfile = "resulting-file_2019-12-03.ris"
+inputfile = 'input-files/2019-12-03_Nyhan.csv'
+outputfile = "output-files/resulting-file_2020_test.ris"
 
 items = []
 labels = ["TI", "AU", "AB", "PY", "JF", "VL", "IS", "SP", "AN", "DO", "IS", "C1", "NS", "DB"]
